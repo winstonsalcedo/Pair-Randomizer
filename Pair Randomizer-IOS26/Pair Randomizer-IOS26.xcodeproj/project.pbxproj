@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93C9F28522B3F01900A6CE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F28422B3F01900A6CE99 /* AppDelegate.swift */; };
+		93C9F28A22B3F01900A6CE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C9F28822B3F01900A6CE99 /* Main.storyboard */; };
+		93C9F28C22B3F01A00A6CE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C9F28B22B3F01A00A6CE99 /* Assets.xcassets */; };
+		93C9F28F22B3F01A00A6CE99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C9F28D22B3F01A00A6CE99 /* LaunchScreen.storyboard */; };
+		93C9F29822B3F0A100A6CE99 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F29722B3F0A100A6CE99 /* Names.swift */; };
+		93C9F29E22B3F0EA00A6CE99 /* NamesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F29D22B3F0EA00A6CE99 /* NamesListTableViewController.swift */; };
+		93C9F2A122B40DCA00A6CE99 /* NamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9F2A022B40DCA00A6CE99 /* NamesController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93C9F28122B3F01900A6CE99 /* Pair Randomizer-IOS26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pair Randomizer-IOS26.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C9F28422B3F01900A6CE99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93C9F28922B3F01900A6CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C9F28B22B3F01A00A6CE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C9F28E22B3F01A00A6CE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C9F29022B3F01A00A6CE99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C9F29722B3F0A100A6CE99 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		93C9F29D22B3F0EA00A6CE99 /* NamesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesListTableViewController.swift; sourceTree = "<group>"; };
+		93C9F2A022B40DCA00A6CE99 /* NamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C9F27E22B3F01900A6CE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93C9F27822B3F01900A6CE99 = {
+			isa = PBXGroup;
+			children = (
+				93C9F28322B3F01900A6CE99 /* Pair Randomizer-IOS26 */,
+				93C9F28222B3F01900A6CE99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C9F28222B3F01900A6CE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F28122B3F01900A6CE99 /* Pair Randomizer-IOS26.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C9F28322B3F01900A6CE99 /* Pair Randomizer-IOS26 */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F29622B3F07700A6CE99 /* Resources */,
+				93C9F28822B3F01900A6CE99 /* Main.storyboard */,
+				93C9F29922B3F0A800A6CE99 /* Model */,
+				93C9F29C22B3F0C000A6CE99 /* Model Controller */,
+				93C9F29F22B3F0EE00A6CE99 /* View Controller */,
+			);
+			path = "Pair Randomizer-IOS26";
+			sourceTree = "<group>";
+		};
+		93C9F29622B3F07700A6CE99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F28422B3F01900A6CE99 /* AppDelegate.swift */,
+				93C9F28B22B3F01A00A6CE99 /* Assets.xcassets */,
+				93C9F28D22B3F01A00A6CE99 /* LaunchScreen.storyboard */,
+				93C9F29022B3F01A00A6CE99 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93C9F29922B3F0A800A6CE99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F29722B3F0A100A6CE99 /* Names.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93C9F29C22B3F0C000A6CE99 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F2A022B40DCA00A6CE99 /* NamesController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		93C9F29F22B3F0EE00A6CE99 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93C9F29D22B3F0EA00A6CE99 /* NamesListTableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C9F28022B3F01900A6CE99 /* Pair Randomizer-IOS26 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C9F29322B3F01A00A6CE99 /* Build configuration list for PBXNativeTarget "Pair Randomizer-IOS26" */;
+			buildPhases = (
+				93C9F27D22B3F01900A6CE99 /* Sources */,
+				93C9F27E22B3F01900A6CE99 /* Frameworks */,
+				93C9F27F22B3F01900A6CE99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pair Randomizer-IOS26";
+			productName = "Pair Randomizer-IOS26";
+			productReference = 93C9F28122B3F01900A6CE99 /* Pair Randomizer-IOS26.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C9F27922B3F01900A6CE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Evolve Technologies";
+				TargetAttributes = {
+					93C9F28022B3F01900A6CE99 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 93C9F27C22B3F01900A6CE99 /* Build configuration list for PBXProject "Pair Randomizer-IOS26" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C9F27822B3F01900A6CE99;
+			productRefGroup = 93C9F28222B3F01900A6CE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C9F28022B3F01900A6CE99 /* Pair Randomizer-IOS26 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C9F27F22B3F01900A6CE99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C9F28F22B3F01A00A6CE99 /* LaunchScreen.storyboard in Resources */,
+				93C9F28C22B3F01A00A6CE99 /* Assets.xcassets in Resources */,
+				93C9F28A22B3F01900A6CE99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C9F27D22B3F01900A6CE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C9F2A122B40DCA00A6CE99 /* NamesController.swift in Sources */,
+				93C9F29E22B3F0EA00A6CE99 /* NamesListTableViewController.swift in Sources */,
+				93C9F29822B3F0A100A6CE99 /* Names.swift in Sources */,
+				93C9F28522B3F01900A6CE99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93C9F28822B3F01900A6CE99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C9F28922B3F01900A6CE99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C9F28D22B3F01A00A6CE99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C9F28E22B3F01A00A6CE99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C9F29122B3F01A00A6CE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C9F29222B3F01A00A6CE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C9F29422B3F01A00A6CE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9743LW426;
+				INFOPLIST_FILE = "$(SRCROOT)/Pair Randomizer-IOS26/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evolveTechnologies.Pair-Randomizer-IOS26";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93C9F29522B3F01A00A6CE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9743LW426;
+				INFOPLIST_FILE = "$(SRCROOT)/Pair Randomizer-IOS26/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evolveTechnologies.Pair-Randomizer-IOS26";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C9F27C22B3F01900A6CE99 /* Build configuration list for PBXProject "Pair Randomizer-IOS26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C9F29122B3F01A00A6CE99 /* Debug */,
+				93C9F29222B3F01A00A6CE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C9F29322B3F01A00A6CE99 /* Build configuration list for PBXNativeTarget "Pair Randomizer-IOS26" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C9F29422B3F01A00A6CE99 /* Debug */,
+				93C9F29522B3F01A00A6CE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C9F27922B3F01900A6CE99 /* Project object */;
+}
